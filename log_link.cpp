@@ -83,8 +83,3 @@ double log_link::compute_dispersion(gsl_vector * y, gsl_matrix * Xv,
 	psi=(1/(n-rank))*wtss;
 	return psi;
 }
-int main(int argc, char const *argv[])
-{
-	/* code */
-	return 0;
-}
